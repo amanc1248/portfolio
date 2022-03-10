@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  font-family: "Righteous", cursive;
+}
+body {
+  background-color: #002626;
+  text-align: center;
+}
+h2 {
+  font-weight: 100;
+}
+
+/* ABOUT ME SECTION */
+.aboutMe__section {
+  height: 100vh;
+  position: relative;
+}
+.about__me__div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.white__text {
+  color: white;
+}
+.link__text {
+  color: #00ecac;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.my__image {
+  background-color: white;
+  border-radius: 50%;
+}
+.working__at__text {
+  font-size: 30px;
+}
+.future__role {
+  font-size: 50px;
+}
+.company__name {
+  font-size: 30px;
+  color: #00ecac;
+}
+.bottom__link__div {
+  position: absolute;
+  bottom: 0.5%;
+  text-align: center;
+  width: 100%;
+}
+
+/* the divider */
+hr {
+  height: 10px;
+  background-color: #00ecac;
+  padding: 0;
+  border: none;
+}
