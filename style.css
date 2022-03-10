@@ -11,7 +11,8 @@ h2 {
 }
 
 /* ABOUT ME SECTION */
-.aboutMe__section {
+.aboutMe__section,
+.why__hired__section {
   height: 100vh;
   position: relative;
 }
@@ -51,8 +52,62 @@ h2 {
   width: 100%;
 }
 
+/* why hired section */
+.why__hired__text__div {
+  height: 20vh;
+
+  position: relative;
+}
+.why__hired__text {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 768px) {
+  .why__hired__text {
+    font-size: 25px;
+  }
+}
+.hiring__quality {
+  margin-top: 40px;
+  align-items: center;
+}
+.hiring__quality {
+}
+
+.quality {
+  background-color: #00ecac;
+  font-size: 25px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .quality {
+    font-size: 25px;
+
+    width: 150px;
+    height: 150px;
+  }
+  .hiring__quality {
+    margin-top: 0px;
+  }
+}
+.quality__div {
+  display: flex;
+}
+.additional__work {
+  height: 20;
+}
 /* the divider */
-hr {
+.the__divider {
   height: 10px;
   background-color: #00ecac;
   padding: 0;
